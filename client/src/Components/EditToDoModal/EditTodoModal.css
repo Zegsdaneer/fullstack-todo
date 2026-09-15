@@ -1,0 +1,33 @@
+
+
+.editTodoModal {
+  display: flex;
+  flex-direction: column;
+}
+
+.editTodoModal input {
+  border: 1px solid var(--color-background-grey);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 100%;
+  outline: none;
+  margin-top: 1rem;
+}
+
+.editTodoModal select,
+.editTodoModal option {
+  border: 1px solid var(--color-background-grey);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 100%;
+  outline: none;
+  background: var(--color-background);
+  color: var(--color-fonts-grey);
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+.editTodoModal button {
+  position: inherit;
+}

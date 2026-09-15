@@ -1,0 +1,79 @@
+.container {
+    margin: 0 1rem;
+}
+
+
+.form_box {
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#login_form {
+    display: block;
+}
+
+
+h2 {
+    font-size: 2.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.8rem;
+    background: #eee;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1.2rem;
+}
+
+
+p {
+    font-size: 14.5px;
+    text-align: center;
+    margin-bottom: 0.7rem;
+    margin-top: 20px;
+}
+
+p a {
+    text-decoration: none;
+    color: #7494ec;
+    transition: 0.3s ease;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+p .register-link {
+    cursor: pointer;
+}
+
+
+.user_password {
+    position: relative;
+}
+
+.reveal_icon {
+    position: absolute;
+    right: 550px;
+    bottom: 48%;
+    cursor: pointer;
+    color: #666;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 767px){
+    .reveal_icon {
+        right: 250px;
+        bottom: 48%;
+    }
+}

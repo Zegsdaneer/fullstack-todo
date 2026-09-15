@@ -1,0 +1,22 @@
+.modal {
+    padding: 1.5rem;
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    top: 50px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.modal_title {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+
+.modal button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}

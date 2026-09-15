@@ -1,0 +1,122 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+
+
+.todo-app {
+    width: 100%;
+    max-width: 740px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.todo-app h2 {
+    color: #002765;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.todo-app h2 img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 1.9rem;
+    padding-left: 1.2rem;
+    margin-bottom: 1.4rem;
+}
+
+.row input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 0.7rem;
+}
+
+.row input[type="text"] {
+    color: #808080;
+}
+
+.logout_btn {
+    border: none;
+    outline: none;
+    padding: 1rem 50px;
+    background: #7494ec;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 40px;
+    position: absolute;
+    bottom: 20px;
+}
+
+ul li {
+    list-style: none;
+    font-size: 1rem;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    transition: 0.4s ease;
+}
+
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    top: 12px;
+    left: 8px;
+}
+
+ul li:hover {
+    background: #edeef0;
+    border-radius: 1rem;
+}
+
+
+ul li span {
+    position: absolute;
+    right: 2.1rem;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    transition: 0.2s ease;
+    border-radius: 50%;
+    display: flex;
+    gap: 0.7rem;
+}
+
+
+.edit_btn, .delete_btn {
+    transition: 0.4s ease;
+}
+
+.edit_btn:hover {
+    color: green;
+}
+
+.delete_btn:hover {
+    color: red;
+}
+
+
+
