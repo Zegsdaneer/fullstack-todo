@@ -1,6 +1,6 @@
 import type { SignupRequest, SignupResponse, LoginRequest, LoginResponse} from '../types/user'
 
-const url = 'http://localhost:3000/';
+const url = import.meta.env.VITE_API_URL;
 
 
 export async function signUp(payload: SignupRequest): Promise<SignupResponse> {

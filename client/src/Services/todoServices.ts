@@ -1,7 +1,7 @@
 // This is where import the types, and set up fetch methods
 import type { Todo, CreateToDoRequest, UpdateTodoRequest } from "../types/todo"
 
-const url = 'http://localhost:3000';
+const url = import.meta.env.VITE_API_URL;
 
 
 
