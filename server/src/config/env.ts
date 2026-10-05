@@ -32,10 +32,6 @@ function verifyNumberEnv(key: string): number {
 
 export const env = {
     port: verifyNumberEnv('PORT'),
-    dbHost: verifyStringEnv('DB_HOST'),
-    dbPort: verifyNumberEnv('DB_PORT'),
-    dbUser: verifyStringEnv('DB_USER'),
-    dbPassword: verifyStringEnv('DB_PASSWORD'),
-    dbName: verifyStringEnv('DB_NAME'),
+    databaseUrl: verifyStringEnv('DATABASE_URL'),
     jwtSecret: verifyStringEnv('JWT_SECRET')
 };
